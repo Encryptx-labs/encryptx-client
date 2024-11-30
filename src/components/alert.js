@@ -234,7 +234,7 @@ const TicketPurchaseDialog = ({ event, isOpen, onClose, onPurchase }) => {
 
       const { data } = await axios.post("/api/api/send-email", {
         to: email,
-        qrUrl: `https://fhe-events.vercel.app/verify/${sign}/${uniqueKey}`,
+        qrUrl: `https://encryptxx.vercel.app/verify/${sign}/${uniqueKey}`,
       });
 
       setStep(3);
