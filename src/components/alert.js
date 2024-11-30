@@ -306,8 +306,8 @@ const TicketPurchaseDialog = ({ event, isOpen, onClose, onPurchase }) => {
       <AlertDialogHeader>
         <AlertDialogTitle>Generate Your Ticket Keys</AlertDialogTitle>
         <AlertDialogDescription>
-          First, we'll generate your unique public and private keys for this
-          ticket. Please save these carefully - they're required to access your
+          First, we&apos;ll generate your unique public and private keys for this
+          ticket. Please save these carefully - they&apos;re required to access your
           ticket.
         </AlertDialogDescription>
       </AlertDialogHeader>
@@ -409,7 +409,7 @@ const TicketPurchaseDialog = ({ event, isOpen, onClose, onPurchase }) => {
 
       <div className="my-4 space-y-4">
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          Thank you for your purchase! We've sent a confirmation email with your
+          Thank you for your purchase! We&apos;ve sent a confirmation email with your
           ticket details to {email}.
           {isAnonymous &&
             " Remember to keep your keys safe - you'll need them to access the event."}

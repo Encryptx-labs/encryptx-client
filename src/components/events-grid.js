@@ -509,7 +509,7 @@ export function EventsBentoGrid({
     <div>
       <div className="max-w-7xl mx-auto md:auto-rows-[32rem] flex justify-end mb-8">
         <Button disabled={mint} variant='ghost'  onClick={handleclick}>
-          <Coins className="cursor-pointer"  />
+          Mint USDC Tokens
         </Button>
       </div>
       <BentoGrid className="max-w-7xl mx-auto md:auto-rows-[32rem]">
