@@ -22,6 +22,16 @@ export default function BlogPost({ params: { slug } }) {
   const [error, setError] = useState("");
 
   useEffect(() => {
+    console.log(slug)
+    const cod = slug.split("/");
+    if (!cod[4] || !cod[5]) {
+      console.error("Invalid QR code format");
+      return;
+    }
+  }, [])
+  
+
+  useEffect(() => {
     const switchChain = async () => {
       try {
         await w0?.switchChain(21097);
