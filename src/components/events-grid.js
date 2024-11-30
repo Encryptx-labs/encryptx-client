@@ -411,8 +411,8 @@ export function EventsBentoGrid({
           <div className="flex items-start justify-between gap-4 mb-2">
             <h3 className="text-xl font-bold line-clamp-1">{event.title}</h3>
             <Badge variant="secondary" className="px-3 py-1 text-lg font-bold">
-              {/* ${event.price} */}
-              $100
+              ${event.price}
+              {/* $100 */}
             </Badge>
           </div>
 

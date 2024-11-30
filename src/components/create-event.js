@@ -67,7 +67,7 @@ const CreateEventSheet = ({ isOpen, onOpenChange }) => {
     title: "",
     description: "",
     duration: "30",
-    price: "29.99",
+    price: "1",
     date: new Date(),
     time: "10:00",
     location: "",
