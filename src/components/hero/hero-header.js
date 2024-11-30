@@ -123,12 +123,12 @@ const HeroHeader = () => {
 
       <div className="flex items-center gap-2">
         <div className="grid place-items-center">
-          <button
+          <Link href={"/verify"}
             className="group rounded-full inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all duration-300 hover:opacity-90 px-4 hover:underline"
-            onClick={() => setShowVideo(true)}
+            // onClick={() => setShowVideo(true)}
           >
-            <p className="py-2">View Demo</p>
-          </button>
+            <p className="py-2">Verify</p>
+          </Link>
         </div>
         <div className="bg-white p-1.5 rounded-full text-sm">
           <div className="flex items-center gap-2">

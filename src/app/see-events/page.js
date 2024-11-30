@@ -2,10 +2,11 @@
 import { EventsBentoGrid } from "@/components/events-grid";
 import HeroHeader from "@/components/hero/hero-header";
 import { useWalletContext } from "@/privy/walletContext";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Page = () => {
   const { address, w0 } = useWalletContext();
+  const [error, setError] = useState(null)
   useEffect(() => {
     const switchChain = async () => {
       try {
