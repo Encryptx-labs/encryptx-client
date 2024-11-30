@@ -123,7 +123,8 @@ export function EventsBentoGrid({
   const handleBuyTicket = async (event, wallet) => {
     try {
       // Generate wallet and create encrypted input
-      const wallet = await generateWallet();
+      // const wallet = await generateWallet();
+      console.log(wallet)
       const input = await instance.createEncryptedInput(
         INCO_ADDRESS,
         userAddress
